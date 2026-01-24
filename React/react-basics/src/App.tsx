@@ -64,3 +64,27 @@
 //     );
 // }
 // export default App;
+
+//DAY - 3, useEffectOne
+// import EffectOne from "./components/day03/useEffectOne";
+
+// function App() {
+//     return (
+//         <>
+//             <EffectOne></EffectOne>
+//         </>
+//     );
+// }
+// export default App;
+
+//  ---------UserList---------
+import UserList from "./components/day03/UserList";
+
+function App() {
+    return (
+        <>
+            <UserList></UserList>
+        </>
+    );
+}
+export default App;
