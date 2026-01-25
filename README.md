@@ -48,6 +48,10 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** `useEffect`, Side effects, and Data Fetching.
 *   **Projects:** Effect Demo, User Directory.
 
+### [Day 4: Complex Forms & Validation](./React/react-basics/src/components/day04)
+*   **Focus:** Complex Forms and Validation.
+*   **Projects:** Register Form, Validated Form.
+
 ## 🚀 How to Use
 
 ### JavaScript Projects

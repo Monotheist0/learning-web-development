@@ -78,12 +78,35 @@
 // export default App;
 
 //  ---------UserList---------
-import UserList from "./components/day03/UserList";
+// import UserList from "./components/day03/UserList";
+
+// function App() {
+//     return (
+//         <>
+//             <UserList></UserList>
+//         </>
+//     );
+// }
+// export default App;
+
+//DAY - 4, RegisterForm
+// import RegisterForm from "./components/day04/RegisterForm";
+
+// function App() {
+//     return (
+//         <>
+//             <RegisterForm></RegisterForm>
+//         </>
+//     );
+// }
+// export default App;
+
+import ValidatedForm from "./components/day04/ValidatedForm";
 
 function App() {
     return (
         <>
-            <UserList></UserList>
+            <ValidatedForm></ValidatedForm>
         </>
     );
 }
