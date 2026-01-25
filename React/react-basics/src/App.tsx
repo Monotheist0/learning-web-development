@@ -101,12 +101,24 @@
 // }
 // export default App;
 
-import ValidatedForm from "./components/day04/ValidatedForm";
+// import ValidatedForm from "./components/day04/ValidatedForm";
+
+// function App() {
+//     return (
+//         <>
+//             <ValidatedForm></ValidatedForm>
+//         </>
+//     );
+// }
+// export default App;
+
+//DAY - 5, MainDashBoard
+import MainDashboard from "./components/day05/MainDashboard";
 
 function App() {
     return (
         <>
-            <ValidatedForm></ValidatedForm>
+            <MainDashboard></MainDashboard>
         </>
     );
 }

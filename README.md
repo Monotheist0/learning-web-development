@@ -52,6 +52,10 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** Complex Forms and Validation.
 *   **Projects:** Register Form, Validated Form.
 
+### [Day 5: SimpleSocial App](./React/react-basics/src/components/day05)
+*   **Focus:** Building a mini-app (SimpleSocial) to practice React basics.
+*   **Projects:** Main Dashboard, Post Card.
+
 ## 🚀 How to Use
 
 ### JavaScript Projects
