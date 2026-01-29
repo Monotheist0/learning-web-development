@@ -112,14 +112,36 @@
 // }
 // export default App;
 
-//DAY - 5, MainDashBoard
-import MainDashboard from "./components/day05/MainDashboard";
+// //DAY - 5, MainDashBoard
+// import MainDashboard from "./components/day05/MainDashboard";
+
+// function App() {
+//     return (
+//         <>
+//             <MainDashboard></MainDashboard>
+//         </>
+//     );
+// }
+// export default App;
+
+//Day - 6,
+
+// function App() {
+//     return (
+//         <div className="bg-blue-500 h-screen flex justify-center items-center">
+//             <h1 className="text-5xl font-bold text-white underline">It Works!</h1>
+//         </div>
+//     );
+// }
+// export default App;
+
+import UserGrid from "./components/day06/UserGrid";
 
 function App() {
     return (
-        <>
-            <MainDashboard></MainDashboard>
-        </>
+        <div>
+            <UserGrid></UserGrid>
+        </div>
     );
 }
 export default App;

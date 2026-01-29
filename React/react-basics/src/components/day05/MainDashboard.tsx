@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import type { ChangeEvent, FormEvent } from "react";
+import type { FormEvent } from "react";
 import PostCard from "./PostCard";
 import type { Post } from "./PostCard";
 
