@@ -82,5 +82,5 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 
 ## 👤 Author
 
-*   **GitHub:** [Monotheist0](https://github.com/Monotheist0)
+*   **GitHub:** [Shoytanbaba99](https://github.com/Shoytanbaba99)
 *   **Name:** Md Masud Ur Rahman

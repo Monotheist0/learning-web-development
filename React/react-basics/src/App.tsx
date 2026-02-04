@@ -156,12 +156,63 @@
 //     );
 // }
 // export default App;
+// ----------------- ODD EVEN PRIME ---------------------
+// import NumberGrid from './components/day08/OddEvenPrime/NumberGrid';
+// function App() {
+//   const numbers = Array.from({ length: 32 }, (_, i) => i);
 
-function App() {
+//   return (
+//     <div>
+//       <h1 className="my-3 text-center font-[daredevil] text-3xl font-bold">
+//         30 Days Of React
+//       </h1>
+//       <h2 className="text-center">Number Generator</h2>
+//       <NumberGrid numbers={numbers} />
+//     </div>
+//   );
+// }
+// export default App;
+
+// ----------------- HEXCOLORS ---------------------
+// import ColorGrid from './components/day08/Hex Generator/ColorGrid';
+// import { generateHexColor } from './components/day08/Hex Generator/utils';
+// function App() {
+//   const colors = Array.from({ length: 32 }, () => generateHexColor());
+
+//   return (
+//     <div className="flex h-screen flex-col items-center justify-center space-y-4">
+//       <h1 className="text-3xl font-bold">30 Days Of React</h1>
+//       <h2 className="text-xl">Hexadecimal Colors</h2>
+//       <ColorGrid colors={colors} />
+//     </div>
+//   );
+// }
+// export default App;
+
+// ----------------- Population Graph ---------------------
+
+import PopulationGraph from './components/day08/PopulationData/PopulationGraph';
+
+const tenHighestPopulation = [
+  { country: 'World', population: 7693165599 },
+  { country: 'China', population: 1377422166 },
+  { country: 'India', population: 1295210000 },
+  { country: 'USA', population: 323947000 },
+  { country: 'Indonesia', population: 258705000 },
+  { country: 'Brazil', population: 206135893 },
+  { country: 'Pakistan', population: 194125062 },
+  { country: 'Nigeria', population: 186988000 },
+  { country: 'Bangladesh', population: 161006790 },
+  { country: 'Russia', population: 146599183 },
+  { country: 'Japan', population: 126960000 },
+];
+
+const App = () => {
   return (
-    <div>
-      <img src="" alt="" />
+    <div className="flex min-h-screen items-center justify-center bg-gray-50">
+      <PopulationGraph data={tenHighestPopulation} />
     </div>
   );
-}
+};
+
 export default App;

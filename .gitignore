@@ -48,3 +48,7 @@ jspm_packages/
 # OS metadata
 .DS_Store
 Thumbs.db
+
+.gemini/
+gha-creds-*.json
+firebase-debug.log
