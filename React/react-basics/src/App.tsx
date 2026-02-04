@@ -146,13 +146,22 @@
 // }
 // export default App;
 
-import FinalDashboard from "./components/day07/FinalDashboard";
+// import FinalDashboard from "./components/day07/FinalDashboard";
+
+// function App() {
+//     return (
+//         <div>
+//             <FinalDashboard></FinalDashboard>
+//         </div>
+//     );
+// }
+// export default App;
 
 function App() {
-    return (
-        <div>
-            <FinalDashboard></FinalDashboard>
-        </div>
-    );
+  return (
+    <div>
+      <img src="" alt="" />
+    </div>
+  );
 }
 export default App;
