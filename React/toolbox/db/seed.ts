@@ -1,21 +1,17 @@
 import { db } from "./index";
-import { users, tasks } from "./schema";
+import { stickies } from "./schema";
 
 async function main() {
-    console.log("🥣 Seeding the pantry...");
+    console.log("🕵️ Seeding the evidence board...");
 
-    const [newUser] = await db
-        .insert(users)
-        .values({
-            name: "Dog",
-            email: "dog@example.com",
-        })
-        .returning();
-    await db.insert(tasks).values({
-        title: "Learn Next.js",
-        user_id: newUser.id,
+    await db.insert(stickies).values({
+        title: "FIRST CLUE",
+        content: "We need to investigate the docks.",
+        x: 100,
+        y: 100,
+        color: "#1C1C1C",
     });
 
-    console.log("PanStry filled!");
+    console.log("Evidence added!");
 }
 main();
