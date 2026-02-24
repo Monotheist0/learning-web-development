@@ -28,7 +28,7 @@ export default function StickyCard({ sticky }: { sticky: any }) {
                 moveSticky(sticky.id, Math.round(info.point.x), Math.round(info.point.y));
             }}
             initial={{ x: sticky.x, y: sticky.y }}
-            className={`absolute p-4 w-64 bg-[#1C1C1C] border border-[#2A2A2A] shadow-xl 
+            className={`absolute p-5 w-72 bg-[#1C1C1C] border border-[#2A2A2A] shadow-xl subpixel-antialiased
                 ${sticky.isDone ? "opacity-40 grayscale" : "opacity-100"}
             `}
         >
@@ -78,14 +78,14 @@ export default function StickyCard({ sticky }: { sticky: any }) {
             ) : (
                 <div onDoubleClick={() => setIsEditing(true)}>
                     <h3
-                        className={`text-[#E6C07B] font-bold text-sm uppercase italic font-elite ${sticky.isDone ? "line-through" : ""}`}
+                        className={`text-[#E6C07B] font-bold text-lg uppercase italic font-elite ${sticky.isDone ? "line-through" : ""}`}
                     >
                         {sticky.title}
                     </h3>
-                    <p className="text-[#B9986F] text-xs leading-relaxed mt-2 whitespace-pre-wrap font-elite">
+                    <p className="text-[#B9986F] text-sm leading-relaxed mt-3 whitespace-pre-wrap font-elite">
                         {sticky.content}
                     </p>
-                    <p className="text-[10px] text-[#7A6A55] mt-4 uppercase border-t border-[#2A2A2A] pt-1">
+                    <p className="text-xs text-[#7A6A55] mt-5 uppercase border-t border-[#2A2A2A] pt-2">
                         Double-Click to Edit
                     </p>
                 </div>
